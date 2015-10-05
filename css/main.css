@@ -1,0 +1,13 @@
+body{
+  background-color: red;
+  color: #fff;
+}
+ul {
+  list-style: circle;
+}
+a, a:visited {
+  color: green;
+}
+a:hover {
+  color: yellow;
+}

@@ -1,0 +1,165 @@
+{
+        "elever":
+    [
+        {
+            "namn": "Albin Holmlund",
+            "dpy": "http://albinholmlund.github.io/",
+            "slack": "@albin_holmlund"
+        },
+        {
+            "namn": "Alexander Järnehall",
+            "dpy": "http://jarnehall.github.io/",
+            "slack": "@alexander "
+        },
+        {
+            "namn": "Amelie Hellners",
+            "dpy": "http://ameliehellners.github.io/",
+            "slack": "@ampelie"
+        },
+        {
+            "namn": "Arthur Berg",
+            "dpy": "http://radarn.github.io/",
+            "slack": "@arthur"
+        },
+        {
+            "namn": "Arvid Sigvardsson",
+            "dpy": "http://arvidsigvardsson.github.io/",
+            "slack": "@arvid"
+        },
+        {
+            "namn": "Cun Luoi Can",
+            "dpy": "http://linhdinh89.github.io/",
+            "slack": "@linhdinh"
+        },
+        {
+            "namn": "Hansi Blomberg",
+            "dpy": "http://hansitestar.netcare.se/dpy/",
+            "slack": "@hansi_blomberg"
+        },
+        {
+            "namn": "Jeton Mustini",
+            "dpy": "http://mu2tini.github.io/",
+            "slack": "@jeton"
+        },
+        {
+            "namn": "Johan Cedborger",
+            "dpy": "http://jcedborger.github.io/",
+            "slack": "@jcedborger"
+        },
+        {
+            "namn": "Johan Strömvall",
+            "dpy": "http://pripper.github.io/",
+            "slack": "@johan"
+        },
+        {
+            "namn": "John Ghavamzadeh",
+            "dpy": "http://johnzade.github.io/",
+            "slack": "@john "
+        },
+        {
+            "namn": "Jonatan Ostling",
+            "dpy": "http://nairyhipples.github.io/",
+            "slack": "@nairyhipples"
+        },
+        {
+            "namn": "Julia Andersson",
+            "dpy": "http://juliaandersson.github.io/",
+            "slack": "@julia.andersson"
+        },
+        {
+            "namn": "Kevin Martinez",
+            "dpy": "http://kevinmartinez.github.io/",
+            "slack": "@kevinpixelkojan"
+        },
+        {
+            "namn": "Linda Seitzberg",
+            "dpy": "http://seitzberglinda.github.io/",
+            "slack": "@lindaseitzberg "
+        },
+        {
+            "namn": "Linh Phung",
+            "dpy": "http://l1ngen.github.io/",
+            "slack": "@linh "
+        },
+        {
+            "namn": "Louiza Eleni Fotinou",
+            "dpy": "http://louizafix.github.io/",
+            "slack": "@louiza_eleni"
+        },
+        {
+            "namn": "Ludvig Roxin",
+            "dpy": "http://zingoz.github.io/",
+            "slack": "@zingoz"
+        },
+        {
+            "namn": "Magnus Gräsberg",
+            "dpy": "http://format.nu/",
+            "slack": "@magnus"
+        },
+        {
+            "namn": "Mai Ly Thernström",
+            "dpy": "http://mylee.github.io/",
+            "slack": "@majlis"
+        },
+        {
+            "namn": "Micke Ly",
+            "dpy": "http://rawpiglet.github.io/",
+            "slack": "@rawpiglet"
+        },
+        {
+            "namn": "Miki Doi",
+            "dpy": "http://mikidoi.github.io/",
+            "slack": "@miki-doi"
+        },
+        {
+            "namn": "Nicolae Rastau",
+            "dpy": "http://nicolaerastau.github.io/",
+            "slack": "@nicolae"
+        },
+        {
+            "namn": "Oday Sheaia",
+            "dpy": "http://louizafix.github.io/",
+            "slack": "@oday"
+        },
+        {
+            "namn": "Olga Tarassova",
+            "dpy": "http://olgatar.github.io/",
+            "slack": "@olgatar"
+        },
+        {
+            "namn": "Panida Larsson",
+            "dpy": "http://panidaLarsson.github.io/",
+            "slack": "@panida"
+        },
+        {
+            "namn": "Robert Högfeldt",
+            "dpy": "http://robhogfeldt-fron15.github.io/",
+            "slack": "@roberthogfeldt "
+        },
+        {
+            "namn": "Sandra Widmark",
+            "dpy": "http://sandra-widmark.github.io/",
+            "slack": "@sandrawidmark"
+        },
+        {
+            "namn": "Sophie Granlöf",
+            "dpy": "http://souf87.github.io/",
+            "slack": "@sogr"
+        },
+        {
+            "namn": "Stina Sköld",
+            "dpy": "http://stinaskold.github.io/",
+            "slack": "@stina_s"
+        },
+        {
+            "namn": "Thomas Elmerup",
+            "dpy": "http://theelmer.github.io/",
+            "slack": "@thomase"
+        },
+        {
+            "namn": "Vaisshnavi Janai",
+            "dpy": "http://vaijan1990.github.io/",
+            "slack": "@vaisshnavi"
+        }
+    ]
+}
