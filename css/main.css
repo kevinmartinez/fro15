@@ -14,3 +14,7 @@ a, a:visited {
 a:hover {
   color: yellow;
 }
+
+header {
+  text-align: center;
+}
