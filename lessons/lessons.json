@@ -4,106 +4,108 @@
 {
 	"lessons":
 	[
-
+		
 		{
 		"date": "Aug 31",
 		"title": "*FÖ1: Hur man sätter upp sin DPY och redigerar den videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p57xphkg78q/",
-		"class": "Webbutveckling"
-
+		"class": "Webutveckling"
+		
 		},
 		{
 		"date": "Sept 3",
-		"title": "*​FÖ2: Webben då och nu videolänk*​​",
+		"title": "*​FÖ2: webbben då och nu videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p4tr9tqneww/",
-		"class": "Webbutveckling"
-
+		"class": "Webutveckling"
+		 
 		},
 		{
 		"date": "Sept 4",
 		"title": "​*FÖ3: Att presentera sig själv videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p4zs7kek8hs/",
-		"class": "Webbutveckling"
-
+		"class": "Webutveckling"
+		
 		},
 		{
 		"date": "Sept 8",
 		"title": "​*FÖ4: Javascripts roll i branschen videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p19323hwb5v/",
-		"class": "Webbutveckling"
-
+		"class": "Webutveckling"
+	
 		},
 		{
 		"date": "Sept 11",
 		"title": "*FÖ5: Olika roller inom yrket videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p7st2yku78j/",
-		"class": "Webbutveckling"
+		"class": "Webutveckling"
 		},
 		{
 		"date": "Sept 11",
 		"title": "*FÖ6: Att arbeta som utvecklare videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p4d3in1esux/",
-		"class": "Webbutveckling"
+		"class": "Webutveckling"
 		},
 		{
 		"date": "Sept 15",
 		"title": "*FÖ 7: sociala medier videolänk*​​​",
 		"url": "http://lernia.adobeconnect.com/p8vssfjo4h3/",
-		"class": "Webbutveckling"
+		"class": "Webutveckling"
 		},
 		{
 		"date": "Sept 17",
 		"title": "​*FÖ8: Det agila arbetssättet videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p98k6o63o8i/",
-		"class": "Webbutveckling"
+		"class": "Webutveckling"
 		},
 		{
 		"date": "Sept 18",
 		"title": "​*FÖ9: html, css och javascript videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p367g7iqdxo/",
-		"class": "Webbutveckling"
+		"class": "Webutveckling"
 		},
 		{
 		"date": "Sept 23",
 		"title": "*FÖ:10 Vilka lagar gäller på nätet? videolänk*​​​",
 		"url": "http://lernia.adobeconnect.com/p1ucq6el0f3/",
-		"class": "Webbutveckling"
+		"class": "Webutveckling"
 		},
 		{
 		"date": "Sept 24",
 		"title": "​*FÖ11: En sammanfattning av kursen videolänk*​​​​",
 		"url": "http://lernia.adobeconnect.com/p3qrl8f45g8/",
-		"class": "Webbutveckling"
-		},
+		"class": "Webutveckling"
+		},	
 		{
 		"date": "Sept 28",
 		"title": "*FÖ1: Intro & HTML - ML videolänk:*​",
 		"url": "http://lernia.adobeconnect.com/p1jpwljfi3n/",
-		"class": "HTML, CSS, JS & Webbstandarder"
+		"class": "HTML,CSS,Js & Webstandarder"
 		},
 		{
 		"date": "Sep 30",
 		"title": "​*FÖ2: HTML - Hypertext, vad är det? videolänk*​​​​​",
 		"url": "http://lernia.adobeconnect.com/p8e2rac2vo5/",
-		"class": "HTML, CSS, JS & Webbstandarder"
+		"class": "HTML,CSS,Js & Webstandarder"
 		},
 		{
 		"date": "Okt 01",
 		"title": "​*FÖ3: Byggnadsblocken videolänk*​​​​​",
 		"url": "http://lernia.adobeconnect.com/p3qrl8f45g8/",
-		"class": "HTML, CSS, JS & Webbstandarder"
+		"class": "HTML,CSS,Js & Webstandarder"
 		},
 		{
 		"date": "Okt 05",
 		"title": "​​*FÖ4: Skapa koppling videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p3qrl8f45g8/",
-		"class": "HTML, CSS, JS & Webbstandarder"
+		"class": "HTML,CSS,Js & Webstandarder"
 		},
 		{
 		"date": "Okt 07",
 		"title": "​​*FÖ6: Versionshantering lokalt videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p61051fpuvy/",
-		"class": "HTML, CSS, JS & Webbstandarder"
+		"class": "HTML,CSS,Js & Webstandarder"
 		}
-	]
+	]	
 }
+
+
