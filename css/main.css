@@ -1,20 +1,134 @@
+/* Using import for fonts so we dont need to include it in every new HTML document */
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu|Lekton);
+
+/* General styles
+============================= */
+
+html {
+  font-size: 16px; /* Setting root font size to 16px for REM and EM values */
+  /* Formula for calculating px to em, take the pixels you want to use for ex, 50px and divide it with the Base Font Pixel value that is 16. Thus 50 / 16 = 3.125em */
+}
+
 body {
-  background-color: red;
-  color: #fff;
+  background-color: #c7632f;
+  font-family: 'Lekton', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* CSS text-align center class */
+.text-center {
+  text-align: center;
+}
+
+a, a:visited {
+  color: #fefff9;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3.125em; /* 50px / 16px */
+  line-height: 3.75rem; /* 60px / 16px *  REM is always using the root pixel size (16px) as base */
+  color: #fefff9;
+}
+
+h2 {
+  font-size: 2.1875em; /* 35px / 16px */
+  line-height: 50px;
 }
 
 ul {
   list-style: circle;
 }
 
-a, a:visited {
-  color: green;
+
+/* Main Header
+============================= */
+
+.main-header {
+  padding: 15px 0 25px;
 }
 
-a:hover {
-  color: yellow;
+.tagline span {
+  display: block;
+  font-size: 0.5em; /* EM's are relative to the parent size, in this case h1 is equivalent to 50px thus 0.5em for this span is 25px */
 }
 
-header {
+
+/* Main Navigation
+============================= */
+
+.main-nav {
+  margin-bottom: 50px;
+}
+
+.main-nav ul {
+  list-style-type: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 0 2em; /* 32px / 16px */
+}
+
+.main-nav a,
+.main-nav a:hover {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+  text-transform: uppercase;
+}
+
+.main-nav a:hover,
+.active {
+  background-color: #000;
+}
+
+
+/* Main Content
+============================= */
+
+.main-content {
+  background-color: #fefff9;
+  padding: 50px 0;
+  color: #000;
+}
+
+.main-content a,
+.main-content a:visited {
+  color: #000;
+}
+
+
+.main-content img {
+  padding-top: 25px;
+}
+
+.dpy-list li {
+  margin-top: 8px;
+}
+
+/* Main Footer
+============================= */
+.main-footer {
+  padding: 15px 0;
+  color: #fefff9;
   text-align: center;
 }
