@@ -40,7 +40,7 @@
 		"class": "Webutveckling"
 		},
 		{
-		"date": "Sept 11",
+		"date": "Sept 12",
 		"title": "*FÖ6: Att arbeta som utvecklare videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p4d3in1esux/",
 		"class": "Webutveckling"
@@ -101,8 +101,44 @@
 		},
 		{
 		"date": "Okt 07",
-		"title": "​​*FÖ6: Versionshantering lokalt videolänk*​​",
+		"title": "​​*FÖ5: Versionshantering lokalt videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p61051fpuvy/",
+		"class": "HTML,CSS,Js & Webstandarder"
+		},
+		{
+		"date": "Okt 09",
+		"title": "​​*FÖ6: Versionshantering på Github videolänk*​​",
+		"url": "http://lernia.adobeconnect.com/p541di49lxy/",
+		"class": "HTML,CSS,Js & Webstandarder"
+		},
+		{
+		"date": "Okt 13",
+		"title": "​​*FÖ7: HTML Standarder och annat “kul” videolänk*​​​",
+		"url": "http://lernia.adobeconnect.com/p4kjj5c1a00/",  //del 2 http://lernia.adobeconnect.com/p6g8vc4rk9p/
+		"class": "HTML,CSS,Js & Webstandarder"
+		},
+		{
+		"date": "Okt 15",
+		"title": "​​*FÖ8 Komma igång med CSS videolänk*​​​​",
+		"url": "http://lernia.adobeconnect.com/p7x292mt5yu/", 
+		"class": "HTML,CSS,Js & Webstandarder"
+		},
+		{
+		"date": "Okt 17",
+		"title": "*​​FÖ9 Text och färg*​​​​​",
+		"url": "http://lernia.adobeconnect.com/p6a7xrgbasm/", 
+		"class": "HTML,CSS,Js & Webstandarder"
+		},
+		{
+		"date": "Okt 18",
+		"title": "*FÖ10 Box-model videolänk*​​​​​",
+		"url": "http://lernia.adobeconnect.com/p6r8gsl5aw4/", 
+		"class": "HTML,CSS,Js & Webstandarder"
+		},
+		{
+		"date": "Okt 20",
+		"title": "​*FÖ11 <div> och <span> videolänk*​",
+		"url": "http://lernia.adobeconnect.com/p7aqbegttvt/", 
 		"class": "HTML,CSS,Js & Webstandarder"
 		}
 	]	
