@@ -9,137 +9,185 @@
 		"date": "Aug 31",
 		"title": "*FÖ1: Hur man sätter upp sin DPY och redigerar den videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p57xphkg78q/",
-		"class": "Webbutveckling"
-
+		"class": "Webbutveckling",
+		"bullets": []
 		},
 		{
 		"date": "Sept 3",
 		"title": "*​FÖ2: Webben då och nu videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p4tr9tqneww/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 
 		},
 		{
 		"date": "Sept 4",
 		"title": "​*FÖ3: Att presentera sig själv videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p4zs7kek8hs/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 
 		},
 		{
 		"date": "Sept 8",
 		"title": "​*FÖ4: Javascripts roll i branschen videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p19323hwb5v/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 
 		},
 		{
 		"date": "Sept 11",
 		"title": "*FÖ5: Olika roller inom yrket videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p7st2yku78j/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 		},
 		{
 		"date": "Sept 12",
 		"title": "*FÖ6: Att arbeta som utvecklare videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p4d3in1esux/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 		},
 		{
 		"date": "Sept 15",
 		"title": "*FÖ 7: sociala medier videolänk*​​​",
 		"url": "http://lernia.adobeconnect.com/p8vssfjo4h3/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 		},
 		{
 		"date": "Sept 17",
 		"title": "​*FÖ8: Det agila arbetssättet videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p98k6o63o8i/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 		},
 		{
 		"date": "Sept 18",
 		"title": "​*FÖ9: html, css och javascript videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p367g7iqdxo/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 		},
 		{
 		"date": "Sept 23",
 		"title": "*FÖ:10 Vilka lagar gäller på nätet? videolänk*​​​",
 		"url": "http://lernia.adobeconnect.com/p1ucq6el0f3/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 		},
 		{
 		"date": "Sept 24",
 		"title": "​*FÖ11: En sammanfattning av kursen videolänk*​​​​",
 		"url": "http://lernia.adobeconnect.com/p3qrl8f45g8/",
-		"class": "Webbutveckling"
+		"class": "Webbutveckling",
+		"bullets": []
 		},
 		{
 		"date": "Sept 28",
 		"title": "*FÖ1: Intro & HTML - ML videolänk:*​",
 		"url": "http://lernia.adobeconnect.com/p1jpwljfi3n/",
-		"class": "HTML, CSS, JS & Webbstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": [
+					"HTML och CSS är språken som används för att skapa webbsidor",
+    				"En webserver lagrar webbsidor som är skapade av HTML och CSS:",
+					"Browsern hämtar sidor och renderer dess content baserat på dess HTML och CSS",
+    				"HTML är en förkortning för HyperText Markup Language och används för strukturen på webbsidan.",
+    				"CSS är en förkortning för Cascading Style Sheets och används för att kontrollera presentationen på Webbsidan.",
+    				"Med HTML så ”märker” vi upp innehåll med taggar som ger struktur. Matchande taggar med innehåll kallas för element.",
+    				"Ett element består av tre delar, öppningstagg – innehåll – stäningsningstagg",
+   					"Öppningstaggar kan ha attribut, t.ex. type",
+   			    	"Stängningstaggar har ett ”/” innan taggnamnet för att markera dem som stäningstaggar.",
+    				"Din sida ska alltid ha ett &lt;html&gt;, &lt;head&gt; och &lt;body&gt; element.",
+    				"Information läggs i &lt;head&gt;",
+    				"Det besökaren ser lägger vi i &lt;body&gt;",
+    				"Mycket av det whitespace vi skriver in i vårt HTML-dokument ignoreras av browsers." 
+				   ]
 		},
 		{
 		"date": "Sep 30",
 		"title": "​*FÖ2: HTML - Hypertext, vad är det? videolänk*​​​​​",
 		"url": "http://lernia.adobeconnect.com/p8e2rac2vo5/",
-		"class": "HTML, CSS, JS & Webbstandarder"
-		},
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": [
+					"När du vill länka från en sidan till en annan, använd &lt;a&gt; elementet",
+					"href attributet på &lt;a&gt; elementet specificerar länkens destination",
+					"Innehållet i &lt;a&gt; elementet är länkens rubrik, det som syns på webbsidan. Som standard är den understruken och går att klicka på.",
+					"Du kan använda ord och bild som rubrik för en länk",
+					"När du klickar på en länk så laddar browsern sidan som är specificerad i href-attributet",
+					"Du kan länka till filer i samma mapp men även i andra mappar",
+					"En relativ sökväg pekar på andra filer på din webbsida i relation till vart webbsidan du länkar från ligger. ",
+					"Använd ”..” för att länka till mappen ovanför den den du är i",
+					"”..” betyder ”parent folder”",
+					"Kom ihåg att separera sökvägar med ”/”",
+					"Används inte mellanslag eller åäö i dina länkar. Håll dig till engelska",
+					"Organisera mappstrukturen för din webbsida "
+					]
+				},
 		{
 		"date": "Okt 01",
 		"title": "​*FÖ3: Byggnadsblocken videolänk*​​​​​",
 		"url": "http://lernia.adobeconnect.com/p3qrl8f45g8/",
-		"class": "HTML, CSS, JS & Webbstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": []
 		},
 		{
 		"date": "Okt 05",
 		"title": "​​*FÖ4: Skapa koppling videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p3qrl8f45g8/",
-		"class": "HTML, CSS, JS & Webbstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": []
 		},
 		{
 		"date": "Okt 07",
 		"title": "​​*FÖ5: Versionshantering lokalt videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p61051fpuvy/",
-		"class": "HTML,CSS,Js & Webstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": []
 		},
 		{
 		"date": "Okt 09",
 		"title": "​​*FÖ6: Versionshantering på Github videolänk*​​",
 		"url": "http://lernia.adobeconnect.com/p541di49lxy/",
-		"class": "HTML,CSS,Js & Webstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": []
 		},
 		{
 		"date": "Okt 13",
 		"title": "​​*FÖ7: HTML Standarder och annat “kul” videolänk*​​​",
 		"url": "http://lernia.adobeconnect.com/p4kjj5c1a00/",  
-		"class": "HTML,CSS,Js & Webstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": []
 		},
 		{
 		"date": "Okt 15",
 		"title": "​​*FÖ8 Komma igång med CSS videolänk*​​​​",
 		"url": "http://lernia.adobeconnect.com/p7x292mt5yu/", 
-		"class": "HTML,CSS,Js & Webstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": []
 		},
 		{
 		"date": "Okt 17",
 		"title": "*​​FÖ9 Text och färg*​​​​​",
 		"url": "http://lernia.adobeconnect.com/p6a7xrgbasm/", 
-		"class": "HTML,CSS,Js & Webstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": []
 		},
 		{
 		"date": "Okt 18",
 		"title": "*FÖ10 Box-model videolänk*​​​​​",
 		"url": "http://lernia.adobeconnect.com/p6r8gsl5aw4/", 
-		"class": "HTML,CSS,Js & Webstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": []
 		},
 		{
 		"date": "Okt 20",
-		"title": "​*FÖ11 <div> och <span> videolänk*​",
+		"title": "​*FÖ11 div och span videolänk*​",
 		"url": "http://lernia.adobeconnect.com/p7aqbegttvt/", 
-		"class": "HTML,CSS,Js & Webstandarder"
+		"class": "HTML,CSS,JS & Webbstandarder",
+		"bullets": []
 		}
 	]
 }

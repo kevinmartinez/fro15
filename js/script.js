@@ -1,3 +1,4 @@
+//DPY
 $.ajax({
        url: 'dpy.json',
        dataType: 'json',
@@ -10,22 +11,66 @@ $.ajax({
               });
        }
        });
-
-
-       $.ajax({
+       
+       
+       
+       
+       
+ //Lessons      
+$.ajax({
        url: 'lessons.json',
        dataType: 'json',
        type: 'get',
        cache: false,
        success: function(data){
-
-              var html = '';
-              var oldCourse;
-              var course;
-              $(data.lessons).each(function(index, value){
-                      value.class!==oldCourse ? course = value.class : course = "";
-                      oldCourse = value.class
-                     $(".lessonList").append("<h2>"+ course +"</h2><li> "+ value.date  + " <a href='" + value.url +"'>" + value.title + "</a></li>");
-              });
-       }
+       var $ul = $('<ul></ul>');
+              getList(data.lessons, $ul);
+    
+           
+             }
        });
+
+
+
+
+function getList(item, $list) {
+    
+        if($.isArray(item)){
+            $.each(item, function (key, value) {
+                getList(value, $list);
+            });
+            return;
+        }
+        
+
+        
+        if (item) {
+            var $li = $('<li />')
+            .css({
+                "list-style-type" : "none"
+            });
+            if (item.bullets.length > 0) {
+                $(".lessonList").append($('<li><a href=" '+ item.url  +' ">' + item.title + '</a>' + '<button class="bpimg"></button></li>'));
+            } else {
+                $(".lessonList").append($('<li><a href=" ' + item.url + '">' + item.title + '</a></li>'));
+            }
+            if (item.bullets && item.bullets.length) {
+                var $sublist = $("<ul/>")
+                    .addClass('subList')
+                    
+                        
+                $.each(item.bullets, function(i)
+                    {
+                        $sublist.append($('<li>' + item.bullets[i] + '</li>'));                    
+                });        
+                $li.append($sublist)
+                
+            }
+            $(".lessonList").append($li)
+        }
+        
+         $("button").unbind().click(function(){ 
+             $(this).parent().next().find('.subList').slideToggle();
+        });
+}
+
