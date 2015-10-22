@@ -20,12 +20,19 @@ $.ajax({
        success: function(data){
 
               var html = '';
-              var oldCourse;
-              var course;
               $(data.lessons).each(function(index, value){
-                      value.class!==oldCourse ? course = value.class : course = "";
-                      oldCourse = value.class
-                     $(".lessonList").append("<h2>"+ course +"</h2><li> "+ value.date  + " <a href='" + value.url +"'>" + value.title + "</a></li>");
+                  var title = value.title,
+                      lessons = value.lessons;
+
+                  // Lägg till kursens titel
+                  $(".lessonList").append("<h2>"+ title +"</h2>");
+                  
+                  // Loopa igenom alla lektioner för just den kursen
+                  for (var i = 0; i < lessons.length; i++){
+                    var lesson = lessons[i];
+
+                    $(".lessonList").append("<li>" + lesson.date  + " <a href='" + lesson.url +"'>" + lesson.title + "</a></li>");
+                  }
               });
        }
        });
