@@ -11,22 +11,23 @@ $.ajax({
               });
        }
        });
-       
-       
-       
-       
-       
- //Lessons      
+
+
+
+
+
+ //Lessons
 $.ajax({
        url: 'lessons.json',
        dataType: 'json',
        type: 'get',
        cache: false,
        success: function(data){
+
        var $ul = $('<ul></ul>');
               getList(data.lessons, $ul);
-    
-           
+
+
              }
        });
 
@@ -34,16 +35,16 @@ $.ajax({
 
 
 function getList(item, $list) {
-    
+
         if($.isArray(item)){
             $.each(item, function (key, value) {
                 getList(value, $list);
             });
             return;
         }
-        
 
-        
+
+
         if (item) {
             var $li = $('<li />')
             .css({
@@ -57,20 +58,19 @@ function getList(item, $list) {
             if (item.bullets && item.bullets.length) {
                 var $sublist = $("<ul/>")
                     .addClass('subList')
-                    
-                        
+
+
                 $.each(item.bullets, function(i)
                     {
-                        $sublist.append($('<li>' + item.bullets[i] + '</li>'));                    
-                });        
+                        $sublist.append($('<li>' + item.bullets[i] + '</li>'));
+                });
                 $li.append($sublist)
-                
+
             }
             $(".lessonList").append($li)
         }
-        
-         $("button").unbind().click(function(){ 
+
+         $("button").unbind().click(function(){
              $(this).parent().next().find('.subList').slideToggle();
         });
 }
-

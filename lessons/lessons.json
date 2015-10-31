@@ -1,6 +1,4 @@
 
-
-
 {
 	"lessons":
 	[
@@ -103,7 +101,7 @@
     				"Din sida ska alltid ha ett &lt;html&gt;, &lt;head&gt; och &lt;body&gt; element.",
     				"Information läggs i &lt;head&gt;",
     				"Det besökaren ser lägger vi i &lt;body&gt;",
-    				"Mycket av det whitespace vi skriver in i vårt HTML-dokument ignoreras av browsers." 
+    				"Mycket av det whitespace vi skriver in i vårt HTML-dokument ignoreras av browsers."
 				   ]
 		},
 		{
@@ -157,35 +155,35 @@
 		{
 		"date": "Okt 13",
 		"title": "​​*FÖ7: HTML Standarder och annat “kul” videolänk*​​​",
-		"url": "http://lernia.adobeconnect.com/p4kjj5c1a00/",  
+		"url": "http://lernia.adobeconnect.com/p4kjj5c1a00/",
 		"class": "HTML,CSS,JS & Webbstandarder",
 		"bullets": []
 		},
 		{
 		"date": "Okt 15",
 		"title": "​​*FÖ8 Komma igång med CSS videolänk*​​​​",
-		"url": "http://lernia.adobeconnect.com/p7x292mt5yu/", 
+		"url": "http://lernia.adobeconnect.com/p7x292mt5yu/",
 		"class": "HTML,CSS,JS & Webbstandarder",
 		"bullets": []
 		},
 		{
 		"date": "Okt 17",
 		"title": "*​​FÖ9 Text och färg*​​​​​",
-		"url": "http://lernia.adobeconnect.com/p6a7xrgbasm/", 
+		"url": "http://lernia.adobeconnect.com/p6a7xrgbasm/",
 		"class": "HTML,CSS,JS & Webbstandarder",
 		"bullets": []
 		},
 		{
 		"date": "Okt 18",
 		"title": "*FÖ10 Box-model videolänk*​​​​​",
-		"url": "http://lernia.adobeconnect.com/p6r8gsl5aw4/", 
+		"url": "http://lernia.adobeconnect.com/p6r8gsl5aw4/",
 		"class": "HTML,CSS,JS & Webbstandarder",
 		"bullets": []
 		},
 		{
 		"date": "Okt 20",
 		"title": "​*FÖ11 div och span videolänk*​",
-		"url": "http://lernia.adobeconnect.com/p7aqbegttvt/", 
+		"url": "http://lernia.adobeconnect.com/p7aqbegttvt/",
 		"class": "HTML,CSS,JS & Webbstandarder",
 		"bullets": []
 		}
