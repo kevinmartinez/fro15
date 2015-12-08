@@ -17,6 +17,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+/* Responsive images */
+img {
+  max-width: 100%;
+}
+
 /* CSS text-align center class */
 .text-center {
   text-align: center;
@@ -57,9 +62,8 @@ ul {
 
 /* Main Header
 ============================= */
-
 .main-header {
-  padding: 15px 0 25px;
+  padding: 5px 0 5px;
 }
 
 .tagline span {
@@ -72,16 +76,20 @@ ul {
 ============================= */
 
 .main-nav {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .main-nav ul {
   list-style-type: none;
 }
 
+.main-nav li:first-child {
+  margin-top: 0;
+}
+
 .main-nav li {
-  display: inline-block;
-  margin: 0 2em; /* 32px / 16px */
+  display: block;
+  margin: 1.5em 2em; /* 32px / 16px */
 }
 
 .main-nav a,
@@ -150,10 +158,26 @@ ul {
     margin-left: 25px;
     background-image: url('../img/bpicon.png');
     background-size:   contain;
- 
-  
+
+
 }
 
 .subList{
   display: none;
+}
+
+
+@media (min-width: 600px) {
+  .main-header {
+    padding: 15px 0 25px;
+  }
+
+  .main-nav {
+    margin-bottom: 50px;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin: 0 2em; /* 32px / 16px */
+  }
 }
