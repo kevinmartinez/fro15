@@ -33,9 +33,10 @@ $.ajax({
 
 
 
-
+var course;
+var oldCourse;
 function getList(item, $list) {
-
+        
         if($.isArray(item)){
             $.each(item, function (key, value) {
                 getList(value, $list);
@@ -44,17 +45,31 @@ function getList(item, $list) {
         }
 
 
-
+       ;    
         if (item) {
             var $li = $('<li />')
             .css({
                 "list-style-type" : "none"
             });
-            if (item.bullets.length > 0) {
-                $(".lessonList").append($('<li><a href=" '+ item.url  +' ">' + item.title + '</a>' + '<button class="bpimg"></button></li>'));
+            
+            if (oldCourse !== item.class){
+                course = item.class;
             } else {
-                $(".lessonList").append($('<li><a href=" ' + item.url + '">' + item.title + '</a></li>'));
+                course = "";
             }
+            
+                       
+            if (item.bullets.length > 0) {
+          
+                      
+                $(".lessonList").append($('<h2>' + course + '</h2><li><a href=" '+ item.url  +' ">' + item.title + '</a>' + '<button class="bpimg"></button></li>'));
+                 
+            } else {
+                $(".lessonList").append($('<h2>' + course + '</h2><li><a href=" ' + item.url + '">' + item.title + '</a></li>'));
+                 
+            }
+            
+            oldCourse = item.class;
             if (item.bullets && item.bullets.length) {
                 var $sublist = $("<ul/>")
                     .addClass('subList')
@@ -74,3 +89,4 @@ function getList(item, $list) {
              $(this).parent().next().find('.subList').slideToggle();
         });
 }
+
